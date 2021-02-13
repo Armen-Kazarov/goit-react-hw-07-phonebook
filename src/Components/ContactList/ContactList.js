@@ -12,7 +12,7 @@ export default function ContactList() {
 
   useEffect(() => {
     dispatch(contactsOperations.fetchContacts())
-  }, [dispatch])
+  }, [])
 
   return (
     <ul className={s.listItems}>
